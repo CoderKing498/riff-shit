@@ -1,8 +1,8 @@
-🎸 Shattered Riffs – Portfolio Website
+# Shattered Riffs – Portfolio Website
 
 Hi! I'm Diego Rodriguez, and this project is a band-themed website I built using HTML, CSS, and a bit of JavaScript. The goal was to create a modern, responsive layout for a fictional rock band called Shattered Riffs, showcasing events, media, and contact information.
 
-📌  Project Overview
+ ## Project Overview
 
 This website represents a music band landing page, designed to highlight:
 
@@ -13,8 +13,8 @@ Contact form
 
 It follows a structured layout using semantic HTML and is styled externally with CSS.
 
-🧱 Structure of the HTML
-🔝 Header & Navigation
+🧱 *Structure of the HTML*
+🔝 *Header & Navigation*
 
 I created a responsive navigation bar that includes:
 
