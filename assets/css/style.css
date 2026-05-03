@@ -56,6 +56,17 @@ li{
     display: none;
     cursor: pointer;
 }
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
 .bar{
     display: block;
     width: 1.6rem;
@@ -269,28 +280,23 @@ input::placeholder, textarea::placeholder{
 }
 
 @media (max-width: 768px){
-    .navbar{
-        flex-wrap: wrap;
-    }
-
-    .hamburger{
-        display: block;
-    }
-
-    .nav-menu{
+     .nav-menu{
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 4.4rem;
         flex-direction: column;
+        background-color: black;
         width: 100%;
-        background: #262626;
         text-align: center;
-        padding: 2rem 0;
-        gap: 1.5rem;
+        transition: 0.3s;
     }
 
     .nav-menu.active{
         left: 0;
+    }
+
+    .hamburger{
+        display: block;
     }
 
    .about__content {
